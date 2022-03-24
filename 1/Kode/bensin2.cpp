@@ -77,9 +77,10 @@ int main() {
  
   cout << "SPBU Cita Jaya Abadi \n";
   cout << "-------------------- \n";
+  cout << "Nama pelanggan : " << SPBU.nama << " \n";
   cout << "Jenis BBM      : " << SPBU.jenisBensin() << " \n";
   cout << "Harga/liter    : " << SPBU.hargarBensin() << " \n";
-  cout << "Total liter	  : " << SPBU.liter()<<"\n";
+  cout << "Total liter    : " << SPBU.liter<<"\n";
   cout << "Total          : Rp." << SPBU.totalHarga() << " \n";
   cout << "-------------------- \n";
   cout << "Terimakasi Selamat Jalan " << SPBU.nama << "\n";

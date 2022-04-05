@@ -1,9 +1,8 @@
-#include "ip.h"
+#include "hit.h"
 main(){
-	cout<<"Program menghitung X pangkat Y\n\n";
-	cout<<"==============================\n";
-	pangkat p;
+	cout<<"Menghitung hasil X Pangkat Y\n";
+	cout<<"============================\n";
+	For p;
 	p.input();
 	p.proses();
-	p.output();
 }

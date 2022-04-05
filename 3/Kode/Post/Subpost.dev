@@ -1,6 +1,6 @@
 [Project]
-FileName=Pangkat.dev
-Name=Pangkat
+FileName=Subpost.dev
+Name=Subpost
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit2]
-FileName=ip.h
+FileName=hit.h
 CompileCpp=1
 Folder=
 Compile=1

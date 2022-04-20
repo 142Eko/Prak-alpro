@@ -6,12 +6,11 @@ class rekursif{
 		int x,y;
 	public :
 		int hit(int x,int y){
-			if (x<100){
+			if (x<y){
 				if((x % 5 == 0) && (x % 7 == 0)){
 						cout<<x<<endl;
 					}
 					return hit(x+1,y);
 			}
 		}
-	
 };

@@ -14,10 +14,10 @@ class post5{
 			else
 			{
 				if(i%2 == 0)
-				j-=(float)1/i;
+				j-=1/i;
 				
 				else
-				j+=(float)1/i;
+				j+=1/i;
 				return hitung(i + 1,n,j);
 			}
 		}

@@ -9,5 +9,7 @@ main(){
 	cout<<"\nHasil penjumlahan 2 vektor\n"<<z;
 	z.perkalian_vektor(3,x);
 	cout<<"\nHasil perkalian skalar dengan vektor\n"<<z;
+	z.perkalian_vektor(3,y);
+	cout<<"\nHasil perkalian skalar dengan vektor\n"<<z;
 	getch(); 
 }

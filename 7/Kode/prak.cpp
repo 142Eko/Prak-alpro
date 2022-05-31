@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Sorting {
 	friend istream& operator>>(istream& in,Sorting& a);
 	friend ostream& operator<<(ostream& in,Sorting& a);
@@ -47,4 +49,8 @@ int Sorting::pencarianBiner(int low,int high){
 		else low = middle +1;
 	}
 	return -1;
+}
+int main(){
+	Sorting Prak;
+	prak.
 }

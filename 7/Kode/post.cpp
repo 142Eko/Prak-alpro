@@ -27,7 +27,7 @@ class buble{
 				if(swap==false){
 					break;
 				}
-							cout<<"Proses ke-"<<i+1<<"= ";
+				cout<<"Proses ke-"<<i+1<<"= ";
 				output();
 			}
 		}

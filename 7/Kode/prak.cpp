@@ -1,5 +1,3 @@
-#include <iostream>
-using namespace std;
 class Sorting {
 	friend istream& operator>>(istream& in,Sorting& a);
 	friend ostream& operator<<(ostream& in,Sorting& a);
@@ -7,7 +5,7 @@ public:
 	void selection_sort();
 	int pencarianBiner(int low,int high);
 private:
-	void minimum(int,int,int&)
+	void minimum(int,int,int &);
 	void tukar(int &,int &);
 	int data[10],n;
 };
@@ -36,11 +34,10 @@ void Sorting::selection_sort(){
 		tukar(data[i],data[t]);
 	}
 }
-
 int Sorting::pencarianBiner(int low,int high){
 	int middle;
 	while (low <= high){
-		middle(low+high)/2;
+		middle=(low+high)/2;
 		cetakBaris(low,middle,high);
 		if (kunciPencarian == data [middle])
 		return middle;
@@ -50,7 +47,4 @@ int Sorting::pencarianBiner(int low,int high){
 	}
 	return -1;
 }
-int main(){
-	Sorting Prak;
-	prak.
-}
+
